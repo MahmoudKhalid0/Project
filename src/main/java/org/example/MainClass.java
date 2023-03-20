@@ -23,9 +23,4 @@ public class MainClass {
 		return driver;
 	}
 
-//	 @AfterTest
-//	 public void EndTest() {
-//	 MainClass.getDriver().quit();
-//	 }
-
 }
