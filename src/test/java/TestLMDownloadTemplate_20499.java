@@ -21,8 +21,9 @@ public class TestLMDownloadTemplate_20499 extends MainClass {
 
 
         @Test(priority = 3)
-        public void TemplateDownload () throws InterruptedException {
+        public void TemplateDownload () {
             var TD = new LMDownloadTemplate_20499 ();
             TD.TemplateDownload ();
         }
+        //jhjhjhjhjhhj
 }
