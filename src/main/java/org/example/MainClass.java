@@ -14,7 +14,7 @@ public class MainClass {
 	public void SetUp() {
 		driver = new ChromeDriver();
 		setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		driver.get("https://osqa.ksmc.med.sa/HRPlanning/Login");
+		driver.get("https://preprod.asf.gov.sa/CMSDashboard/Login");
 		driver.manage().window().maximize();
 		getDriver().manage().timeouts().pageLoadTimeout(10, SECONDS);
 	}
